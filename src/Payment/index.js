@@ -10,7 +10,7 @@ const Payment = () => {
         const { IMP } = window;
         IMP.init('imp08843501');
     
-        /* 2. 결제 데이터 정의하기 */
+        /* 2. 결제 데이터 정의하기 (중복이 불가능한편)*/
         const data = {
           pg: 'html5_inicis',                           // PG사
           pay_method: 'card',                           // 결제수단
