@@ -4,8 +4,8 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LogoPage from './pages/LogoPage';
 import MainPage from './pages/MainPage';
-import Home from './Home';
-import Payment from './Payment';
+
+//import Payment from './Payment';
 import PaymentPage from './pages/PaymentPage';
 import About from './pages/PaymentPage';
 
@@ -22,8 +22,8 @@ function App() {
 			  <Route path="/" element={<LogoPage />}></Route>
 			  <Route path="/main" element={<MainPage />}></Route>
 			  {/* <Route exact path="/" component={Home} /> */}
-			  <Route path="/payment" element={<PaymentPage />}></Route>
-			  <Route exact path="/payments" element={<Payment></Payment>} />
+			  <Route path="/payments" element={<PaymentPage />}></Route>
+			  {/*<Route exact path="/payments" element={<Payment></Payment>} /> */}
 		  </Routes>
 	</BrowserRouter>
   );

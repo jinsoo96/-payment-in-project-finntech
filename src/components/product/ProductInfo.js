@@ -28,7 +28,7 @@ const bull = (
 	</Box>
 );
 
-const ProductInfo = () => {
+const ProductInfo = (history) => {
   return (
     <React.Fragment>
       <CssBaseline />
@@ -80,8 +80,8 @@ const ProductInfo = () => {
 			<CardActions sx={{ justifyContent: "center" }}>
 				<Grid container spacing={2}>
 					<Grid item xs={6}>
-						<Link to="/payment" style={{ textDecoration: 'none' }}>
-							<Button 
+						<Link to="/payments" style={{ textDecoration: 'none' }}>
+						<Button onClick={() => history.push('/payments')}
 								variant="contained" 
 								size="large"
 							>결제하기</Button>
