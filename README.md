@@ -50,13 +50,11 @@ src/pages/ShoppingCartPage.js : 장바구니 페이지
 ### ▶︎ 팀원 & 맡은 부분  
 강푸른 -> 결제 완료 페이지  
 김진수 -> 결제 화면 페이지  
-서고은 -> 발표자료 만들기  
 왕기영 -> qr코드 페이지 & 서버  
 이서우 -> 메인페이지 & 장바구니 목록  
 
 ##### 메일주소 
 강푸른 : prjustinakang@gmail.com    
 김진수 : xorbdla@naver.com    
-서고은 : koeun.seo@sciencespo.fr    
 왕기영 : kiyoungwang2@gmail.com      
 이서우 : cloleesw@gmail.com   
